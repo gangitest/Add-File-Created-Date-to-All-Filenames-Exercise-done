@@ -1,11 +1,10 @@
-# Author: Ardit Sulce, Automate Everything with Python, Udemy
-# Course URL: https://www.udemy.com/course/automate-everything-with-python/
+# Author: Gangireddy Automate Everything with Python, Udemy
+# Ref : Course URL: https://www.udemy.com/course/automate-everything-with-python/
 
 from pathlib import Path
 from datetime import datetime
 
 root_dir = Path('files')
-print()
 
 for path in root_dir.glob("**/*"):
   if path.is_file():
